@@ -15,11 +15,14 @@ Small template to run a STM32F303 under VSCode with CMake and Ninja.
 - dan-c-underwood.arm: [ARM Assembly syntax highlighter ](https://@github.com/dan-c-underwood/vscode-arm)
 - zixuanwang.linkerscript: [GCC Linker script syntax highlighter ](https://@github.com/TheNetAdmin/vscode-linkerscript)
 
-For a good exaple with F7 and a walktrough visit: @github.com/MaJerle/stm32-cube-cmake-vscode
+For a good exaple with F7 and a walktrough visit: [Tilen Majerle](@github.com/MaJerle/stm32-cube-cmake-vscode)
 
 # Comparison to CubeIDE
 ### Size:
 Generated .hex is bigger with VSCode even with the same settings
+- CubeIDE: 18,9KB - RAM: 1587 B, FLASH: 6850 B
+- VSCode: 50,8KB - RAM: 2064 B, FLASH: 18496 B 
+
 ### Performace:
 For now it seems to be comparable, will see on DSP applications (updates will come)
 ### Debug:
