@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "i2c.h": "c",
+        "main.h": "c",
+        "stm32f3xx_hal.h": "c",
+        "stm32f3xx_hal_conf.h": "c"
+    }
+}

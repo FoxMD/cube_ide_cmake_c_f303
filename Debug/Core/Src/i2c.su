@@ -1,0 +1,8 @@
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_i2c.h:645:22:LL_I2C_EnableClockStretching	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_i2c.h:765:22:LL_I2C_DisableGeneralCall	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_i2c.h:876:22:LL_I2C_SetOwnAddress2	24	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_i2c.h:898:22:LL_I2C_DisableOwnAddress2	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_i2c.h:1880:22:LL_I2C_EnableAutoEndMode	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:287:22:LL_AHB1_GRP1_EnableClock	24	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:537:22:LL_APB1_GRP1_EnableClock	24	static
+../Core/Src/i2c.c:28:6:MX_I2C1_Init	64	static

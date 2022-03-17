@@ -1,0 +1,16 @@
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_spi.h:382:26:LL_SPI_IsEnabled	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_spi.h:666:22:LL_SPI_SetRxFIFOThreshold	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_spi.h:775:22:LL_SPI_SetCRCPolynomial	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_spi.h:1660:26:LL_I2S_IsEnabled	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:734:22:LL_APB1_GRP1_ForceReset	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:799:22:LL_APB1_GRP1_ReleaseReset	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:988:22:LL_APB2_GRP1_ForceReset	16	static
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_bus.h:1033:22:LL_APB2_GRP1_ReleaseReset	16	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:134:13:LL_SPI_DeInit	24	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:201:13:LL_SPI_Init	24	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:279:6:LL_SPI_StructInit	16	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:383:13:LL_I2S_DeInit	16	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:398:13:LL_I2S_Init	40	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:522:6:LL_I2S_StructInit	16	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:544:6:LL_I2S_ConfigPrescaler	24	static
+../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c:570:14:LL_I2S_InitFullDuplex	24	static
