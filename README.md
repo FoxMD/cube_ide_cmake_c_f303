@@ -1,7 +1,7 @@
 # About
-Small example to run a STM32F303 under VSCode with CMake and Ninja.
+Small example to run a STM32F303 under VSCode with CMake and Ninja. </br>
 If you need a teplate with settings without STM32CUBE files go to:
-[](https://)
+[Template](https://github.com/FoxMD/VSCode-STM32-template)
 ### Used tools:
 - arm-none-eabi-gcc
 - STM32CubeProgrammer
@@ -32,10 +32,11 @@ Comparable, some options are better on VSC some on STMCubeIDE
 ### Easy to use:
 For a beginner STMCubeIDE would be to recommend, but for advanced users VSCode is nice, it gives you one editor for more languages for testing scripts, GUI, frontend, etc...  
 
+# ToDo:
+- Include files path error highligting (c_cpp_properties.json needs to be adjusted)
+
 # Known issues
 [^1]: Some AV delete ST-Link_servergdb.exe and let the .bat file exist, while trying to debug your project, you get an error:
 `Debugger error: Client: Error: read ECONNRESET` </br>
 **Solution:** Just install it again and put a exception in your AV for the exe file before you run it again[^1].
 
-# ToDo:
-- Include files path error highligting (c_cpp_properties.json needs to be adjusted)
