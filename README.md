@@ -1,5 +1,7 @@
 # About
-Small template to run a STM32F303 under VSCode with CMake and Ninja. 
+Small example to run a STM32F303 under VSCode with CMake and Ninja.
+If you need a teplate with settings without STM32CUBE files go to:
+[](https://)
 ### Used tools:
 - arm-none-eabi-gcc
 - STM32CubeProgrammer
