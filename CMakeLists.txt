@@ -65,14 +65,13 @@ set(sources_SRCS                    # Modified
     ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
     ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
     ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dma.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_exti.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_gpio.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_i2c.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rcc.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c
+    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c
+    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
     ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c
-    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_utils.c
+
+
+    ${PROJ_PATH}/Application/Src/main.cpp
+    ${PROJ_PATH}/Application/Src/led.cpp
 )
 
 #
@@ -81,8 +80,11 @@ set(sources_SRCS                    # Modified
 set(include_path_DIRS               # Modified
     ${PROJ_PATH}/Core/Inc
     ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Inc
+    ${PROJ_PATH}/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy
     ${PROJ_PATH}/Drivers/CMSIS/Device/ST/STM32F3xx/Include
     ${PROJ_PATH}/Drivers/CMSIS/Include
+
+    ${PROJ_PATH}/Application/Inc
 )
 
 #
@@ -91,7 +93,6 @@ set(include_path_DIRS               # Modified
 set(symbols_SYMB                    # Modified
     "DEBUG"
     "STM32F303xC"
-    "USE_FULL_LL_DRIVER"
     "USE_HAL_DRIVER"
 )
 

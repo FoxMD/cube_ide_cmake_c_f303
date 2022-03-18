@@ -8,7 +8,7 @@
             "executable": "${command:cmake.launchTargetPath}", //or fixed file path: build/project-name.elf
             "request": "launch",                //Use "attach" to connect to target w/o elf download
             "servertype": "stlink",             //Use stlink setup of cortex-M debug
-            "device": "STM32F303",            //MCU used
+            "device": "STM32F303",              //MCU used
             "interface": "swd",                 //Interface setup
             "serialNumber": "",                 //Set ST-Link ID if you use multiple at the same time
             "runToEntryPoint": "main",          //Run to main and stop there

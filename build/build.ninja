@@ -50,292 +50,268 @@ cmake_ninja_workdir = E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmak
 build cmake_object_order_depends_target_STM32F303-C-LED: phony || CMakeFiles/STM32F303-C-LED.dir
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/main.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/main.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\main.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/stm32f3xx_it.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/stm32f3xx_it.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\stm32f3xx_it.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/syscalls.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/syscalls.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\syscalls.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/sysmem.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/sysmem.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\sysmem.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/system_stm32f3xx.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/system_stm32f3xx.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\system_stm32f3xx.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/gpio.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/gpio.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\gpio.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/i2c.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/i2c.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\i2c.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/spi.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/spi.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\spi.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/stm32f3xx_hal_msp.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/stm32f3xx_hal_msp.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\stm32f3xx_hal_msp.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Src/usb.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Src/usb.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Src\usb.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Core/Startup/startup_stm32f303vctx.s.obj: ASM_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Startup/startup_stm32f303vctx.s || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Core\Startup\startup_stm32f303vctx.s.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Core\Startup
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dma.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dma.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_dma.c.obj.d
+build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c || cmake_object_order_depends_target_STM32F303-C-LED
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_exti.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_exti.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_exti.c.obj.d
+build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c || cmake_object_order_depends_target_STM32F303-C-LED
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
-
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_gpio.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_gpio.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_gpio.c.obj.d
-  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
-
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_i2c.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_i2c.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_i2c.c.obj.d
-  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
-
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rcc.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rcc.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_rcc.c.obj.d
-  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
-
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_spi.c.obj.d
-  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
 build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
 
-build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_utils.c.obj: C_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_utils.c || cmake_object_order_depends_target_STM32F303-C-LED
-  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_utils.c.obj.d
-  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu11
-  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include
+build CMakeFiles/STM32F303-C-LED.dir/Application/Src/main.cpp.obj: CXX_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Src/main.cpp || cmake_object_order_depends_target_STM32F303-C-LED
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Application\Src\main.cpp.obj.d
+  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu++2a
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Drivers\STM32F3xx_HAL_Driver\Src
+  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Application\Src
+
+build CMakeFiles/STM32F303-C-LED.dir/Application/Src/led.cpp.obj: CXX_COMPILER__STM32F303-C-LED_Debug E$:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Src/led.cpp || cmake_object_order_depends_target_STM32F303-C-LED
+  DEFINES = -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32F303-C-LED.dir\Application\Src\led.cpp.obj.d
+  FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=gnu++2a
+  INCLUDES = -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include -IE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc
+  OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir
+  OBJECT_FILE_DIR = CMakeFiles\STM32F303-C-LED.dir\Application\Src
 
 
 # =============================================================================
@@ -345,7 +321,7 @@ build CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_
 #############################################
 # Link the executable STM32F303-C-LED.elf
 
-build STM32F303-C-LED.elf: C_EXECUTABLE_LINKER__STM32F303-C-LED_Debug CMakeFiles/STM32F303-C-LED.dir/Core/Src/main.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/stm32f3xx_it.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/syscalls.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/sysmem.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/system_stm32f3xx.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/gpio.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/i2c.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/spi.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/stm32f3xx_hal_msp.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/usb.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Startup/startup_stm32f303vctx.s.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dma.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_exti.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_gpio.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_i2c.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rcc.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_utils.c.obj
+build STM32F303-C-LED.elf: CXX_EXECUTABLE_LINKER__STM32F303-C-LED_Debug CMakeFiles/STM32F303-C-LED.dir/Core/Src/main.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/stm32f3xx_it.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/syscalls.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/sysmem.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/system_stm32f3xx.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/gpio.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/i2c.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/spi.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/stm32f3xx_hal_msp.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Src/usb.c.obj CMakeFiles/STM32F303-C-LED.dir/Core/Startup/startup_stm32f303vctx.s.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj CMakeFiles/STM32F303-C-LED.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj CMakeFiles/STM32F303-C-LED.dir/Application/Src/main.cpp.obj CMakeFiles/STM32F303-C-LED.dir/Application/Src/led.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -TE:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/STM32F303VCTX_FLASH.ld -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,-Map=STM32F303-C-LED.map --specs=nosys.specs -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group -Wl,--print-memory-usage
   OBJECT_DIR = CMakeFiles\STM32F303-C-LED.dir

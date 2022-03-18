@@ -28,31 +28,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 99,
+				"line" : 100,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 119,
+				"line" : 120,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 108,
+				"line" : 109,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 105,
+				"line" : 106,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 102,
+				"line" : 103,
 				"parent" : 0
 			}
 		]
@@ -125,10 +125,6 @@
 				},
 				{
 					"backtrace" : 4,
-					"define" : "USE_FULL_LL_DRIVER"
-				},
-				{
-					"backtrace" : 4,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
@@ -144,11 +140,19 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
 				},
 				{
 					"backtrace" : 5,
 					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc"
 				}
 			],
 			"language" : "C",
@@ -191,12 +195,7 @@
 				27,
 				28,
 				29,
-				30,
-				31,
-				32,
-				33,
-				34,
-				35
+				30
 			]
 		},
 		{
@@ -262,7 +261,105 @@
 				},
 				{
 					"backtrace" : 4,
-					"define" : "USE_FULL_LL_DRIVER"
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"fragment" : "-std=gnu++2a"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F303xC"
 				},
 				{
 					"backtrace" : 4,
@@ -281,17 +378,34 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
 				},
 				{
 					"backtrace" : 5,
 					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/Programming/STM32CubeIDE/workspace_1.9.0/cube_ide_cmake_c_f303/Application/Inc"
 				}
 			],
-			"language" : "ASM",
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
 			"sourceIndexes" : 
 			[
-				10
+				31,
+				32
 			]
 		}
 	],
@@ -389,7 +503,7 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "STM32F303-C-LED",
 	"nameOnDisk" : "STM32F303-C-LED.elf",
@@ -435,10 +549,7 @@
 				29,
 				30,
 				31,
-				32,
-				33,
-				34,
-				35
+				32
 			]
 		},
 		{
@@ -622,37 +733,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dma.c",
+			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_exti.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_gpio.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_i2c.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rcc.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c",
+			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -663,8 +750,14 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_utils.c",
+			"compileGroupIndex" : 2,
+			"path" : "Application/Src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Application/Src/led.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
